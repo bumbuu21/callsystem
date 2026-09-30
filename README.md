@@ -17,7 +17,7 @@
 ### 1. Төслийг татах
 
 ```bash
-git clone https://github.com/sumiyabazar0904-oss/call-registration.git
+git clone https://github.com/bumbuu21/callsystem.git
 cd call-registration
 ```
 
