@@ -1,0 +1,4 @@
+@extends('layouts.app')
+@section('content')
+<div class="card"><h1 style="text-align:center">Дуудлагын тайлан</h1><p>Шүүлтүүр: Бүгд</p><table><thead><tr><th>ID</th><th>Харилцагч</th><th>Төрөл</th><th>Хаанаас</th><th>Төлөв</th><th>Илгээсэн</th><th>Хүлээн авсан</th><th>Шийдвэрлэсэн</th><th>Ажилтан</th><th>Инженерийн тайлбар</th></tr></thead><tbody>@forelse($calls as $call)<tr><td>{{ $call->id }}</td><td>{{ $call->caller_name }} {{ $call->caller_phone }}</td><td>{{ \App\Support\Labels::type($call->call_type) }}</td><td>{{ $call->call_from }}</td><td>{{ \App\Support\Labels::status($call->status) }}</td><td>{{ $call->requested_at?->format('Y-m-d') }}</td><td>{{ $call->accepted_at?->format('Y-m-d') }}</td><td>{{ $call->resolved_at?->format('Y-m-d') }}</td><td>{{ $call->agent?->name }}</td><td>{{ $call->agent_description }}</td></tr>@empty<tr><td colspan="10">Мэдээлэл байхгүй.</td></tr>@endforelse</tbody></table></div>
+@endsection
