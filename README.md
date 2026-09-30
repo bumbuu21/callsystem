@@ -51,16 +51,28 @@ composer run dev
 
 Дараа нь хөтөч дээр [http://127.0.0.1:8000](http://127.0.0.1:8000) хаягийг нээнэ. Энэ команд Laravel server, queue worker, log viewer болон Vite-ийг хамтад нь ажиллуулна. Зогсоохдоо `Ctrl+C` дарна.
 
-## Demo нэвтрэх эрх
+## Demo хэрэглэгчдийн нэвтрэх мэдээлэл
 
-Бүх demo хэрэглэгчийн нууц үг: `password123`
-
-| Эрх | Нэвтрэх нэр |
-| --- | --- |
-| Админ | `admin` |
-| Оператор | `operator` |
-| Инженер | `engineer` |
-| Харилцагч | `customer` |
+| Эрх | Нэвтрэх нэр | Нууц үг |
+| --- | --- | --- |
+| Админ | `admin` | `password123` |
+| Оператор | `operator` | `password123` |
+| Инженер | `engineer` | `password123` |
+| Инженер | `agent0` | `password123` |
+| Инженер | `agent1` | `password123` |
+| Инженер | `agent2` | `password123` |
+| Инженер | `agent3` | `password123` |
+| Инженер | `agent4` | `password123` |
+| Инженер | `agent5` | `password123` |
+| Инженер | `agent6` | `password123` |
+| Инженер | `agent7` | `password123` |
+| Инженер | `agent8` | `password123` |
+| Инженер | `agent9` | `password123` |
+| Инженер | `agent10` | `password123` |
+| Харилцагч | `customer` | `password123` |
+| Харилцагч | `borjigin` | `password123` |
+| Харилцагч | `baturnukh` | `password123` |
+| Харилцагч | `sumiya` | `password123` |
 
 Нэвтрэх хуудас: [http://127.0.0.1:8000/nevtreh](http://127.0.0.1:8000/nevtreh)
 
