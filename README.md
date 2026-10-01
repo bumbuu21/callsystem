@@ -2,6 +2,10 @@
 
 Дуудлага бүртгэх, инженер/ажилтанд хуваарилах, шийдвэрлэлтийг хянах Laravel веб систем.
 
+## Vercel-д deploy хийх
+
+Repository-г Vercel рүү import хийх, database болон environment variable тохируулах зааврыг [VERCEL.md](VERCEL.md)-ээс харна уу.
+
 ## Шаардлагатай програмууд
 
 - Git
